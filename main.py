@@ -7,7 +7,7 @@ def home():
 
 
 @app.route('/about/')
-def actor():
+def about():
     return render_template('about.html')
 
 
